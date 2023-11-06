@@ -1,0 +1,33 @@
+.app__menuitem {
+  width: 100%;
+  margin: 1rem;
+}
+
+.app__menuitem-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.app__menuitem-sub {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.app__menuitem-name {
+  flex: 1;
+}
+
+
+.app__menuitem-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.app__menuitem-bottom-dash {
+  background: var(--color-golden);
+  color: var(--color-golden);
+  height: 1px;
+}

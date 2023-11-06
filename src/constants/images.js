@@ -1,0 +1,33 @@
+import bg from '../assets/bg.png';
+import logo from '../assets/logo.png';
+import menu from '../assets/menu.png';
+import overlaybg from '../assets/overlaybg.png';
+import spoon from '../assets/spoon.svg';
+import welcome from '../assets/welcome.jpg';
+import findus from '../assets/findus.png';
+import sign from '../assets/sign.png';
+import quote from '../assets/quote.png';
+import rs from '../assets/rsLogo.png'
+import rslanding1 from '../assets/rslanding1.jpg'
+import rslanding3 from '../assets/rslanding3.jpg'
+import masaBg from '../assets/masa-no-bg.png';
+import knife from '../assets/knife.jpg';
+
+
+ const images = {
+  bg,
+  rslanding3,
+  rslanding1,
+  knife,
+  logo,
+  menu,
+  overlaybg,
+  spoon,
+  welcome,
+  findus,
+  sign,
+  quote,
+  rs,
+  masaBg,
+};
+export default images
