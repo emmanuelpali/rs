@@ -7,7 +7,7 @@ import images from "../../constants/images";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
-    <nav className="app__navbar">
+    <nav className="navbar fixed-top app__navbar  fixed">
       <div className="app__navbar-logo">
          <img src={images.rs} alt="app__logo" /> 
       </div>
