@@ -14,7 +14,7 @@ const masaMenu = [
     title: 'Classic Masa',
     dozen: 'Dozen $20',
     regular: 'Regular Pan $40',
-    large: 'Large Pan $60'
+    large: 'Large Pan $80'
   },
   {
     title: 'Meat Lover',
@@ -38,9 +38,10 @@ const masaMenu = [
     title: 'Peanut Soup',
     dozen: 'Small 700ml $30',
     regular: 'Regular 1.5L $50',
-    large: 'Large Pan 2.2L $70'
+    large: 'Large 2.2L $70'
   },
 ];
 
+const menuData = { specialty, masaMenu };
 
-export default { specialty, masaMenu};
+export default menuData;
