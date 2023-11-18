@@ -15,7 +15,7 @@
 }
 
 .carousel-inner  h3 {
-    color: black;
+    color: var(  --color-white: #ffffff;);
     font-size: 2rem;
     font-weight: bolder;
     backdrop-filter: blur(3px);
