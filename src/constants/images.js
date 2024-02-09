@@ -1,10 +1,8 @@
 import bg from '../assets/bg.png';
 import logo from '../assets/logo.png';
-import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
 import welcome from '../assets/welcome.jpg';
-import findus from '../assets/findus.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import rs from '../assets/rsLogo.png'
@@ -20,11 +18,9 @@ import knife from '../assets/knife.jpg';
   rslanding1,
   knife,
   logo,
-  menu,
   overlaybg,
   spoon,
   welcome,
-  findus,
   sign,
   quote,
   rs,

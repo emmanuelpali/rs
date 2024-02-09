@@ -5,7 +5,6 @@ import {
   Footer,
   Gallery,
   Header,
-  Intro,
   SpecialMenu,
 } from "./container";
 import { Navbar } from "./components";
