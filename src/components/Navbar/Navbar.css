@@ -22,13 +22,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   list-style: none;
 }
 
 .app__navbar-links li {
   margin: 0 1rem;
   cursor: pointer;
+  color: var(--color-golden);
 }
 
 .app__navbar-links li:hover {
@@ -40,12 +40,14 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  color: var(--color-golden);
 }
 
 .app__navbar-login a {
   margin: 0 1rem;
   text-decoration: none;
   transition: 0.5s ease;
+  color: var(--color-golden);
 }
 
 .app__navbar-login a:hover {
@@ -129,6 +131,6 @@
   }
 
   .app__navbar-logo img {
-    width: 70px;
+    width: 50px;
   }
 }

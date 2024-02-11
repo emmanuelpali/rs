@@ -11,7 +11,7 @@ const specialty = [
 
 const masaMenu = [
   {
-    title: 'Classic Masa',
+    title: 'Masa',
     dozen: 'Dozen $20',
     regular: 'Regular Pan $40',
     large: 'Large Pan $80'
@@ -29,7 +29,7 @@ const masaMenu = [
     large: 'Large Pan $100'
   },
   {
-    title: 'Classic Masa & Peanut Soup',
+    title: 'Masa & Peanut Soup',
     dozen: 'Dozen $40',
     regular: 'Regular Pan $70',
     large: 'Large Pan $110'

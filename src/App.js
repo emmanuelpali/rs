@@ -9,24 +9,25 @@ import {
 } from "./container";
 import { Navbar } from "./components";
 import "./App.css";
-import UncontrolledCarousel from "./container/UncontrolledCarousel/UncontrolledCarousel";
 import Reveal from "./components/Reveal";
 
 const App = () => (
-  <div className="app">  
+  <div className="app px-2">  
     <Navbar />
-    <Reveal>
-    <UncontrolledCarousel />
-    </Reveal>
-    <Header />    
+    <Header />      
     <AboutUs />
     <Reveal>
     <SpecialMenu />
     </Reveal>
     <Reveal>
+    </Reveal>
+    <Reveal>
     <Gallery />
     </Reveal>
+        <Reveal>
     <Footer />
+        </Reveal>
+
   </div>
 );
 

@@ -55,6 +55,10 @@ hr {
   background: var(--color-golden);
 }
 
+.bg-black {
+  background: var(--color-black) !important;
+}
+
 @media screen and (min-width: 2000px) {
   .app__specialMenu-menu_img {
     width: 650px;

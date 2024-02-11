@@ -2,6 +2,7 @@ import React from "react";
 import { data, images } from "../../constants";
 import "./SpecialMenu.css";
 import { MenuItem, SubHeading } from "../../components";
+import { Accordion } from "react-bootstrap";
 
 
 // 
@@ -15,7 +16,7 @@ const SpecialMenu = () => (
     </div>
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <div className="app__specialMenu_menu_items">
+        <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
           {data.specialty.map((specialItem, index) => (
             <MenuItem
               key={specialItem.title + index}
@@ -25,7 +26,7 @@ const SpecialMenu = () => (
               large={specialItem.large}
             />
           ))}
-        </div>
+        </Accordion>
       </div>
     </div>
     <div className="app__specialMenu-menu_img">
@@ -33,8 +34,8 @@ const SpecialMenu = () => (
       </div>
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <p className="app__specialMenu-menu_heading">Masa</p>
-        <div className="app__specialMenu_menu_items">
+        <p className="app__specialMenu-menu_heading headtext__cormorant">Masa</p>
+        <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
           {data.masaMenu.map((masaItem, index) => (
             <MenuItem
               key={masaItem.title + index}
@@ -44,7 +45,7 @@ const SpecialMenu = () => (
               large={masaItem.large}
             />
           ))}
-        </div>
+        </Accordion>
       </div>
     </div>
   </div>
