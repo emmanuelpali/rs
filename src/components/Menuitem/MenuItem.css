@@ -32,13 +32,38 @@
   height: 1px;
 }
 
-.bg-black {
-  background: var(--color-black) !important;
-  color: "#DCCA87";
+.accordion-button {
+  background-color: var(--color-black);
+  color: var(--color-golden);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border: 1px solid var(--color-golden);
+}
+
+.accordion-button:hover, .accordion-button:hover, .accordion-button.active{
+  background-color: var(--color-golden);
+  color: var(--color-black);
+  border: 1px solid var(--color-black); 
+  outline: none;
+}
+
+.accordion-button:hover, .accordion-button.active .accordion-button p{
+  background-color: var(--color-black);
+  color: var(--color-black);
+  border: 1px solid var(--color-black); 
+} 
+
+.accordion-button::after {
+  font-size: 25px;
+  color: var(--color-golden);
 }
 
 .accordion-item {
-  background-color: var(--color-black) !important;
+  background-color: var(--color-black);
   color: var(--color-golden);
   cursor: pointer;
   padding: 18px;
@@ -50,9 +75,9 @@
   transition: 0.4s;
 }
 
-.accordion-button::after {
-  font-size: 13px;
-  float: right;
-  margin-left: auto;
-  margin-bottom: 5px;
+.accordion-item p {
+  color: var(--color-golden);
+  cursor: pointer;
+  outline: none;
+  transition: 0.4s;
 }

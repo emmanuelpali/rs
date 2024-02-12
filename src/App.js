@@ -17,16 +17,14 @@ const App = () => (
     <Header />      
     <AboutUs />
     <Reveal>
-    <SpecialMenu />
+      <SpecialMenu />
     </Reveal>
     <Reveal>
+      <Gallery />
     </Reveal>
     <Reveal>
-    <Gallery />
+      <Footer />
     </Reveal>
-        <Reveal>
-    <Footer />
-        </Reveal>
 
   </div>
 );

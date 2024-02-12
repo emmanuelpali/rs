@@ -16,7 +16,7 @@ const SpecialMenu = () => (
     </div>
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_cocktails  flex__center">
-        <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
+        <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items">
           {data.specialty.map((specialItem, index) => (
             <MenuItem
               key={specialItem.title + index}
