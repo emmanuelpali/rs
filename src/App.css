@@ -1,5 +1,6 @@
 .app {
   background-color: var(--color-black);
+  margin: 0;
 }
 
 .section__padding {

@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.7);
   padding: 1rem 2rem;
   transition: transform 0.5s ease;
 }
@@ -79,7 +79,6 @@
   height: 100vh;
   background: var(--color-black);
   transition: 0.5s ease;
-
   flex-direction: column;
   z-index: 5;
 }
@@ -88,7 +87,6 @@
   font-size: 27px;
   color: var(--color-golden);
   cursor: pointer;
-
   position: absolute;
   top: 20px;
   right: 20px;

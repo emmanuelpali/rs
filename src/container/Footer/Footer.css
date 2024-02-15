@@ -10,6 +10,7 @@
 
   background: var(--color-black);
   padding-top: 0;
+  margin: 0;
 }
 
 .app__footer-links {

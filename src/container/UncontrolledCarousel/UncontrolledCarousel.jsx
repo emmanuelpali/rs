@@ -57,7 +57,7 @@ const UncontrolledCarousel = () => {
           <CarouselItem key={index}>
             <img src={item} alt={''} />
             <CarouselCaption>
-              <h3>{businessName}</h3>
+              {/* <h3>{businessName}</h3> */}
               {/* <p>{item.caption}</p> */}
             </CarouselCaption>
           </CarouselItem>

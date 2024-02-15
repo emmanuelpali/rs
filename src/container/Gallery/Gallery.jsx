@@ -8,7 +8,7 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center text-center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
+        <SubHeading title="" />
         <h1 className="headtext__cormorant">Food Gallery</h1>
         <p
           className="p__opensans"
