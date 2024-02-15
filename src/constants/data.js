@@ -42,6 +42,29 @@ const masaMenu = [
   },
 ];
 
-const menuData = { specialty, masaMenu };
+const chickenMenu = [
+  {
+    title: 'Sesame Glazed Chicken',
+    dozen: 'Regular $60',
+    regular: 'Half Pan $120',
+    large: 'Large Pan $240'
+  },
+];
+const saladsMenu = [
+  {
+    info: 'Field Greens, Tomato, Cucumber, Black Olives, dried Cranberries, Feta Cheese. Avocado added on request for $5',
+    title: 'Field-Vinaigrette',
+    regular: 'Regular $50',
+    large: 'Large $100',
+  },
+  {
+    info: 'White and Red cabbage, pasta, carrot, cucumber, red onions, tomatoes and boiled eggs. Tuna added on request for $5',
+    title: 'Cabbage Mayo',
+    regular: 'Regular $50',
+    large: 'Large $100',
+  },
+];
+
+const menuData = { specialty, masaMenu, chickenMenu, saladsMenu };
 
 export default menuData;

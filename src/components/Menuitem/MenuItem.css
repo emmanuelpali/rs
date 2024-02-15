@@ -81,3 +81,9 @@
   outline: none;
   transition: 0.4s;
 }
+
+.menu-info {
+  max-width: 200px;
+  margin: 0.5rem 0;
+  text-align: center;
+}

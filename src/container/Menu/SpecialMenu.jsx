@@ -48,6 +48,40 @@ const SpecialMenu = () => (
         </Accordion>
       </div>
     </div>
+    <div className="app__specialMenu-menu">
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading headtext__cormorant">Chicken</p>
+        <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
+          {data.chickenMenu.map((masaItem, index) => (
+            <MenuItem
+              key={masaItem.title + index}
+              info={masaItem.info}
+              title={masaItem.title}
+              dozen={masaItem.dozen}
+              regular={masaItem.regular}
+              large={masaItem.large}
+            />
+          ))}
+        </Accordion>
+      </div>
+    </div>
+    <div className="app__specialMenu-menu">
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading headtext__cormorant">Salads</p>
+        <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
+          {data.saladsMenu.map((masaItem, index) => (
+            <MenuItem
+              key={masaItem.title + index}
+              info={masaItem.info}
+              title={masaItem.title}
+              dozen={masaItem.dozen}
+              regular={masaItem.regular}
+              large={masaItem.large}
+            />
+          ))}
+        </Accordion>
+      </div>
+    </div>
   </div>
 );
 

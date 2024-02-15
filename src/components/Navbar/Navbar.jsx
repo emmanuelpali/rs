@@ -5,9 +5,27 @@ import "./Navbar.css";
 import images from "../../constants/images";
 
 const Navbar = () => {
+  const [show, setShow] = React.useState(false);
   const [toggleMenu, setToggleMenu] = React.useState(false);
+
+  React.useEffect(() => {
+    let timeoutId;
+  const handleScroll = () => {
+    clearTimeout(timeoutId); 
+    setShow(true); 
+    timeoutId = setTimeout(() => {
+      setShow(false);
+    }, 500); 
+  };
+
+  window.addEventListener("scroll", handleScroll, { passive: true });
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+    clearTimeout(timeoutId); // Clear timeout on component unmount
+  };
+}, []);
   return (
-    <nav className="navbar fixed-top app__navbar  fixed">
+    <nav className={`navbar ${show && 'hidden'} fixed-top app__navbar  fixed`}>
       <div className="app__navbar-logo">
          <img src={images.rs} alt="app__logo" /> 
       </div>
