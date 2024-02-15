@@ -9,7 +9,7 @@ const Header = () => (
   <div className="app__header app__wrapper section__padding" id="home">
     <Reveal>
       <div className="app__wrapper_info">
-        <SubHeading title="Amazing flavours" />
+        <SubHeading title="" />
         <h1 className="app__header-h1">RS cuisine</h1>
         <p className="p__opensans" style={{ margin: "2rem 0" }}>
         "Our foods are crafted with care and love, fueled by a passion for excellent taste."{" "}

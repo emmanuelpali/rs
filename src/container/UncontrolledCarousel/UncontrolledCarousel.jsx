@@ -48,7 +48,7 @@ import "./UncontrolledCarousel.css";
 import { images } from '../../constants'; // Assuming you have an array of images and captions in a separate file
 
 const UncontrolledCarousel = () => {
-  const businessName = "RS CUISINE";
+  // const businessName = "RS CUISINE";
   const CarouselImages = [images.welcome, images.masaBg, images.welcome, images.masaBg]
   return (
     <div className="carousel-container">
