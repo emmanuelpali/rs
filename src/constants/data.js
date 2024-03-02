@@ -63,9 +63,8 @@ const puffPuffMenu = [
 const bunsMenu = [
   {
     title: 'RS Buns',
-    dozen: 'Regular $20',
-    regular: 'Half Pan $35',
-    large: 'Large Pan $70'
+    regular: 'Half Pan $40',
+    large: 'Large Pan $80'
   },
 ];
 
