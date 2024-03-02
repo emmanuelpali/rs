@@ -50,6 +50,38 @@ const SpecialMenu = () => (
     </div>
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading headtext__cormorant">Snacks</p>
+        <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
+          {data.puffPuffMenu.map((masaItem, index) => (
+            <MenuItem
+              key={masaItem.title + index}
+              title={masaItem.title}
+              dozen={masaItem.dozen}
+              regular={masaItem.regular}
+              large={masaItem.large}
+            />
+          ))}
+        </Accordion>
+      </div>
+    </div>
+    <div className="app__specialMenu-menu">
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading headtext__cormorant"></p>
+        <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
+          {data.bunsMenu.map((masaItem, index) => (
+            <MenuItem
+              key={masaItem.title + index}
+              title={masaItem.title}
+              dozen={masaItem.dozen}
+              regular={masaItem.regular}
+              large={masaItem.large}
+            />
+          ))}
+        </Accordion>
+      </div>
+    </div>
+    <div className="app__specialMenu-menu">
+      <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading headtext__cormorant">Chicken</p>
         <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
           {data.chickenMenu.map((masaItem, index) => (

@@ -50,6 +50,25 @@ const chickenMenu = [
     large: 'Large Pan $240'
   },
 ];
+
+const puffPuffMenu = [
+  {
+    title: 'RS Puff Puff',
+    dozen: 'Regular $20',
+    regular: 'Half Pan $35',
+    large: 'Large Pan $70'
+  },
+];
+
+const bunsMenu = [
+  {
+    title: 'RS Buns',
+    dozen: 'Regular $20',
+    regular: 'Half Pan $35',
+    large: 'Large Pan $70'
+  },
+];
+
 const saladsMenu = [
   {
     info: 'Field Greens, Tomato, Cucumber, Black Olives, dried Cranberries, Feta Cheese. Avocado added on request for $5',
@@ -65,6 +84,6 @@ const saladsMenu = [
   },
 ];
 
-const menuData = { specialty, masaMenu, chickenMenu, saladsMenu };
+const menuData = { specialty, masaMenu, bunsMenu, puffPuffMenu, chickenMenu, saladsMenu };
 
 export default menuData;
