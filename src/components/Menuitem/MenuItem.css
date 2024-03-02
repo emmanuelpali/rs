@@ -23,7 +23,6 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-start;
 }
 
 .app__menuitem-bottom-dash {
@@ -93,6 +92,6 @@
 
 .menu-info {
   max-width: 180px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
