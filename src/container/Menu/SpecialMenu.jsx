@@ -101,14 +101,33 @@ const SpecialMenu = () => (
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading headtext__cormorant">Salads</p>
         <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
-          {data.saladsMenu.map((masaItem, index) => (
+          {data.saladsMenu.map((saladItem, index) => (
             <MenuItem
-              key={masaItem.title + index}
-              info={masaItem.info}
-              title={masaItem.title}
-              dozen={masaItem.dozen}
-              regular={masaItem.regular}
-              large={masaItem.large}
+              key={saladItem.title + index}
+              info={saladItem.info}
+              title={saladItem.title}
+              dozen={saladItem.dozen}
+              regular={saladItem.regular}
+              large={saladItem.large}
+            />
+          ))}
+        </Accordion>
+      </div>
+    </div>
+    <div className="app__specialMenu-menu">
+      <div className="app__specialMenu-menu_cocktails  flex__center">
+        <p className="app__specialMenu-menu_heading headtext__cormorant">Yogurt</p>
+        <Accordion defaultActiveKey={0} className="app__specialMenu_menu_items bg-dark">
+          {data.yogurtMenu.map((yogurtItem, index) => (
+            <MenuItem
+              key={yogurtItem.title + index}
+              info={yogurtItem.info}
+              title={yogurtItem.title}
+              fourliters={yogurtItem.fourLitres}
+              twolitres={yogurtItem.twoLiters}
+              aliter={yogurtItem.aLiter}
+              fourteenoz={yogurtItem.fourteenoz}
+              tenoz={yogurtItem.tenoz}
             />
           ))}
         </Accordion>

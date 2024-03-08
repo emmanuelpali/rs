@@ -83,6 +83,18 @@ const saladsMenu = [
   },
 ];
 
-const menuData = { specialty, masaMenu, bunsMenu, puffPuffMenu, chickenMenu, saladsMenu };
+const yogurtMenu = [
+  {
+    info: 'Yougurt blended with millet the RS way, You need to try this!',
+    title: 'RS Yogurt - Fura Za Nunu',
+    fourLitres: '4-Litres 75',
+    twoLiters: '2-Litres $40',
+    aLiter: '1-Litre $20',
+    fourteenOz: '14oz $10',
+    tenOz: '10oz $8',
+  },
+];
+
+const menuData = { specialty, masaMenu, bunsMenu, puffPuffMenu, chickenMenu, saladsMenu, yogurtMenu };
 
 export default menuData;
