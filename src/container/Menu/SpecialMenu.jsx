@@ -29,9 +29,9 @@ const SpecialMenu = () => (
         </Accordion>
       </div>
     </div>
-    <div className="app__specialMenu-menu_img">
+    {/* <div className="app__specialMenu-menu_img">
         <img src={images.masaBg} alt="menu__img" />
-      </div>
+      </div> */}
     <div className="app__specialMenu-menu">
       <div className="app__specialMenu-menu_cocktails  flex__center">
         <p className="app__specialMenu-menu_heading headtext__cormorant">Masa</p>

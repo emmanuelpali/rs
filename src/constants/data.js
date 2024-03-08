@@ -87,9 +87,9 @@ const yogurtMenu = [
   {
     info: 'Yougurt blended with millet the RS way, You need to try this!',
     title: 'RS Yogurt - Fura Da Nono',
-    fourLitres: '4-Litres 75',
-    twoLiters: '2-Litres $40',
-    aLiter: '1-Litre $20',
+    fourLitres: '4-Litres $100',
+    twoLiters: '2-Litres $50',
+    aLiter: '1-Litre $25',
     fourteenOz: '14oz $10',
     tenOz: '10oz $8',
   },
