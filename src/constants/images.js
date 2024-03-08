@@ -10,6 +10,7 @@ import rslanding1 from '../assets/rslanding1.jpg'
 import rslanding3 from '../assets/rslanding3.jpg'
 import masaBg from '../assets/masa-no-bg.png';
 import knife from '../assets/knife.jpg';
+import thanksgiving from '../assets/thanksgiving.jpg';
 
 
  const images = {
@@ -25,5 +26,6 @@ import knife from '../assets/knife.jpg';
   quote,
   rs,
   masaBg,
+  thanksgiving,
 };
 export default images

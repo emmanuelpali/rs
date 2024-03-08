@@ -25,7 +25,7 @@ const AboutUs = () => (
 
       <Reveal>
       <div className="app__aboutus-content_knife flex__center">
-        <img src={images.rslanding1} alt="about_knife" />
+        <img src={images.thanksgiving} alt="about_knife" />
       </div>
       </Reveal>
     </div>

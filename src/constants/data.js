@@ -86,7 +86,7 @@ const saladsMenu = [
 const yogurtMenu = [
   {
     info: 'Yougurt blended with millet the RS way, You need to try this!',
-    title: 'RS Yogurt - Fura Za Nunu',
+    title: 'RS Yogurt - Fura Da Nono',
     fourLitres: '4-Litres 75',
     twoLiters: '2-Litres $40',
     aLiter: '1-Litre $20',

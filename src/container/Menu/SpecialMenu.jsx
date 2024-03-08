@@ -126,8 +126,8 @@ const SpecialMenu = () => (
               fourliters={yogurtItem.fourLitres}
               twolitres={yogurtItem.twoLiters}
               aliter={yogurtItem.aLiter}
-              fourteenoz={yogurtItem.fourteenoz}
-              tenoz={yogurtItem.tenoz}
+              fourteenoz={yogurtItem.fourteenOz}
+              tenoz={yogurtItem.tenOz}
             />
           ))}
         </Accordion>
