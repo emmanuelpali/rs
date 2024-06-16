@@ -1,6 +1,6 @@
 .app__specialMenu {
   flex-direction: column;
-  background: black;
+  background: url(../../assets/rs_menu_bcg.jpg) no-repeat center center/cover;
 }
 
 .app__specialMenu-title {

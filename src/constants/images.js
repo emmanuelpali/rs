@@ -11,10 +11,11 @@ import rslanding3 from '../assets/rslanding3.jpg'
 import masaBg from '../assets/masa-no-bg.png';
 import knife from '../assets/knife.jpg';
 import thanksgiving from '../assets/thanksgiving.jpg';
-
+import rs_menu_bcg from '../assets/rs_menu_bcg.jpg';
 
  const images = {
   bg,
+  rs_menu_bcg,
   rslanding3,
   rslanding1,
   knife,
