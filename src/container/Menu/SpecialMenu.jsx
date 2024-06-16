@@ -1,5 +1,5 @@
 import React from "react";
-import { data, images } from "../../constants";
+import { data } from "../../constants";
 import "./SpecialMenu.css";
 import { MenuItem, SubHeading } from "../../components";
 import { Accordion } from "react-bootstrap";
@@ -123,11 +123,9 @@ const SpecialMenu = () => (
               key={yogurtItem.title + index}
               info={yogurtItem.info}
               title={yogurtItem.title}
-              fourliters={yogurtItem.fourLitres}
-              twolitres={yogurtItem.twoLiters}
               aliter={yogurtItem.aLiter}
-              fourteenoz={yogurtItem.fourteenOz}
-              tenoz={yogurtItem.tenOz}
+              _500ml={yogurtItem._500ml}
+              _375ml={yogurtItem._375ml}
             />
           ))}
         </Accordion>
