@@ -1,10 +1,10 @@
 
 const specialty = [
   {
-    title: 'Chocolate Masa',
-    dozen: 'Dozen $25',
-    regular: 'Regular Pan $50',
-    large: 'Large Pan $100'
+    title: 'Meat Lover',
+    dozen: 'Dozen $30',
+    regular: 'Regular Pan $60',
+    large: 'Large Pan $120'
   },
 
 ];
@@ -12,18 +12,6 @@ const specialty = [
 const masaMenu = [
   {
     title: 'Masa',
-    dozen: 'Dozen $20',
-    regular: 'Regular Pan $40',
-    large: 'Large Pan $80'
-  },
-  {
-    title: 'Meat Lover',
-    dozen: 'Dozen $30',
-    regular: 'Regular Pan $60',
-    large: 'Large Pan $120'
-  },
-  {
-    title: 'Spicy Veggie Delight',
     dozen: 'Dozen $25',
     regular: 'Regular Pan $50',
     large: 'Large Pan $100'
@@ -31,8 +19,8 @@ const masaMenu = [
   {
     title: 'Masa & Peanut Soup',
     dozen: 'Dozen $40',
-    regular: 'Regular Pan $70',
-    large: 'Large Pan $110'
+    regular: 'Regular Pan $80',
+    large: 'Large Pan $150'
   },
   {
     title: 'Peanut Soup',
@@ -54,17 +42,17 @@ const chickenMenu = [
 const puffPuffMenu = [
   {
     title: 'RS Puff Puff',
-    dozen: 'Regular $20',
-    regular: 'Half Pan $35',
-    large: 'Large Pan $70'
+    dozen: 'Regular $30',
+    regular: 'Half Pan $50',
+    large: 'Large Pan $100'
   },
 ];
 
 const bunsMenu = [
   {
     title: 'RS Buns',
-    regular: 'Half Pan $40',
-    large: 'Large Pan $80'
+    regular: 'Half Pan $60',
+    large: 'Large Pan $120'
   },
 ];
 
@@ -88,7 +76,7 @@ const yogurtMenu = [
     info: 'Yougurt blended with millet the RS way, You need to try this!',
     title: 'RS Yogurt - Fura Da Nono',
     aLiter: '1-Litre $25',
-    _500ml: '500ml $13',
+    _500ml: '500ml $15',
     _375ml: '375ml $10',
   },
 ];
